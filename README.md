@@ -4,6 +4,8 @@ A planner + local simulator for running a personal AI agent on **your own** clou
 
 **Confidence: High (≥80%)** for the architecture claim: a single-instance durable-object primitive is a natural fit for a single-user agent state machine (one writer, sequential ops, persisted state — reproduced locally by the simulator). **Confidence: Medium (60–79%)** that platform free tiers sustainably cover a personal agent — quota tables change; the planner reads *your* numbers, not ours.
 
+<p align="center"><img src="docs/demo.gif" alt="demo" width="720"></p>
+
 ## Problem
 
 Hosted agent subscriptions bundle three things you may not want: a recurring bill, a vendor-operated copy of your conversation history, and a ceiling on customization. Self-hosting a full stack fixes ownership but adds an ops tax most individuals don't want to pay.
